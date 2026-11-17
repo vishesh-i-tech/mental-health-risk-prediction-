@@ -104,6 +104,22 @@ The repository includes a ready-to-deploy Streamlit application:
 
 ---
 
+## 📱 iOS 18 Health UI Design System & Motion References
+
+The platform includes a dedicated **iOS Health & Wellness Widget Suite** styled after modern Apple Health and minimalist fintech interfaces, directly implementing three reference motion prototypes:
+
+| Reference Video | UI Prototype / Pattern | Implementation Role in Platform |
+|:---|:---|:---|
+| [sAPuxmy_tZEFtiKd-optimized.mp4](sAPuxmy_tZEFtiKd-optimized.mp4) | **Apple Health Wellness Card** | Global Stability Score (84/100), segmented time pills (Day/Week/Month), and stacked multi-disorder prevalence bars with interactive tooltips. |
+| [sDbIvV434ItoOQzU-optimized.mp4](sDbIvV434ItoOQzU-optimized.mp4) | **QED Minimalist Grid Architecture** | Dashed architectural metric grid, high-contrast typography, and surveillance governance cards. |
+| [VDTGy8A8kG3eB3BS-optimized.mp4](VDTGy8A8kG3eB3BS-optimized.mp4) | **Top Categories Distribution Widget** | Descending rounded vertical bars with percentage callouts and disorder emoji badge icons. |
+
+### How to Preview the iOS UI
+1. **Inside Streamlit**: Run python -m streamlit run dashboard.py and navigate to the **📱 iOS Health & Wellness Cards** or **🎬 UI Design References** tab.
+2. **Standalone Web View**: Open [ios_app.html](ios_app.html) directly in any browser for a responsive iOS widget dashboard with embedded video playback.
+
+---
+
 ## 📁 Repository Structure
 
 ```plaintext
@@ -123,7 +139,7 @@ mental-health-risk-prediction-/
 ├── dashboard2.py                                        # Staged dashboard iteration
 ├── mental-health-eda-prediction.ipynb                   # Complete Jupyter EDA & modeling notebook
 ├── Mental_Health_Risk_Prediction_Project_Report.pdf     # Full technical documentation report (PDF)
-├── requirements.txt                                     # Python dependencies
+├── ios_app.html                                         # Standalone iOS 18 Health Widget Web App\n├── sAPuxmy_tZEFtiKd-optimized.mp4                       # UI Reference: Apple Health Card\n├── sDbIvV434ItoOQzU-optimized.mp4                       # UI Reference: Minimalist Grid Layout\n├── VDTGy8A8kG3eB3BS-optimized.mp4                       # UI Reference: Top Sources / Bar Widget\n├── requirements.txt                                     # Python dependencies
 ├── .gitignore                                           # Git exclusion rules
 └── README.md                                            # Project documentation (this file)
 ```
